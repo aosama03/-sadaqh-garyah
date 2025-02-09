@@ -76,16 +76,6 @@ nav {
 iframe {
   width: 1000px;
 }
-.text {
-  background-color: white;
-  text-align: center;
-  width: fit-content;
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-  font-size: 18px;
-  border-radius: 10px;
-}
 .big-text {
   display: flex;
   justify-content: center;
@@ -120,15 +110,16 @@ iframe {
   }
 }
 .text {
-  background-color: white;
   text-align: center;
-  width: fit-content;
   display: flex;
   justify-content: center;
   margin: 30px auto;
+  align-items: center;
   padding: 20px;
   font-size: 18px;
   border-radius: 10px;
+  flex-direction: column;
+  text-align: center;
 }
 .fs {
   font-size: 50px !important;
@@ -136,4 +127,27 @@ iframe {
 }
 .fs2 {
   font-size: 60px !important;
+}
+.big-text {
+  text-align: center;
+}
+.box-text img {
+  width: 230px;
+}
+.code {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.box-text {
+  background-color: white;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.box-text p {
+  padding: 15px;
+  padding-bottom: 0;
 }
